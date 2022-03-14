@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #d468f2 16.62%, #e1beeb 85.61%);
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+.menu-imagem {
+  max-width: 62px;
+  width: auto;
+}
+
+.menu-sessoes{
+  display: flex;
+  gap: 32px;
+}
+
+.menu-item{
+  font-family: 'Hubballi', cursive;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.principal{
+  margin-bottom: 48px;
+  border-top: 0.4px solid #aa8ed6;
+}
+
+.principal-conteudo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.principal-conteudo-escrito{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .principal-conteudo-titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+      }
+
+  .principal-conteudo-subtitulo{
+    font-family: 'Hubballi', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    gap: 15px;
+  }
+
+  .principal-conteudo-botao{
+    background-color: #f0e9f2;
+    width: 185px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Hubballi', cursive;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 24px;
+    
+          }
+
+.principal-conteudo-imagem{
+  max-width: 600px;
+  width: auto;
+  height: 430px;
+  }
