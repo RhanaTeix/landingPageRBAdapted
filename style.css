@@ -20,7 +20,7 @@ body {
   padding: 24px;
 }
 .menu-imagem {
-  max-width: 62px;
+  height: 62px;
   width: auto;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .principal{
-  margin-bottom: 48px;
+  margin-bottom: 40px;
   border-top: 0.4px solid #aa8ed6;
 }
 
@@ -51,37 +51,90 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  }
+}
 
-  .principal-conteudo-titulo{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-      }
+.principal-conteudo-titulo{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+}
 
-  .principal-conteudo-subtitulo{
-    font-family: 'Hubballi', cursive;
-    font-weight: 400;
-    font-size: 24px;
-    gap: 15px;
-  }
+.principal-conteudo-subtitulo{
+  font-family: 'Hubballi', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  gap: 15px;
+}
 
-  .principal-conteudo-botao{
-    background-color: #f0e9f2;
-    width: 185px;
-    height: 40px;
-    border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    font-family: 'Hubballi', cursive;
-    font-weight: 400;
-    font-weight: bold;
-    font-size: 24px;
-    
-          }
+.principal-conteudo-botao{
+  background-color: #f0e9f2;
+  width: 185px;
+  height: 40px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Hubballi', cursive;
+  font-weight: 400;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.principal-conteudo-botao:hover {
+  background-color: rgb(106, 90, 205);
+}
 
 .principal-conteudo-imagem{
-  max-width: 600px;
-  width: auto;
   height: 430px;
+  }
+
+.secundario-conteudo{
+  border-top: 0.4px solid #aa8ed6;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 150px;
+  gap: 24px;
+  margin-top: 0;
+}
+
+.secundario-titulo{
+  padding-top: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1000;
+  font-size: 15px;
+  margin-bottom: 16px;
+  padding-left: 350px;
+}
+
+.secundario-logos-ferramentas{
+  display: flex;
+  padding-left: 420px;
+  
+}
+
+.logo-html{
+  height: 100px;
+}
+
+.logo-css{
+  height: 100px;
+}
+
+  .agradecimento{
+    font-family: 'Hubballi', cursive;
+    font-weight: 200;
+    font-size: 15px;
+    padding-left: 250px;
+  }
+
+  .rodape{
+    padding: 5px;
+    border-top: 0.4px solid #aa8ed6;
+  }
+
+  .rodape-imagem{
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    padding: 0;
   }
