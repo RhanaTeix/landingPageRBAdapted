@@ -1,13 +1,12 @@
 # landingPageRBAdapted
 > Landing Page 1
  
-Deployment ˚ ༘✶ ⋆｡˚ ⁀➷[_here_]()
+Deployment ˚ ༘✶ ⋆｡˚ ⁀➷[_here_](https://rhanateix.github.io/landingPageRBAdapted/)
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Notes](#notes)
-* [Screenshots](#screenshots)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
@@ -33,10 +32,6 @@ Deployment ˚ ༘✶ ⋆｡˚ ⁀➷[_here_]()
 ## Notes
   
   ˚ ༘✶ ⋆｡˚ ⁀➷ This project was made by and with the purpose of learning 
-    
-  
-## Screenshots
-![Final Result]()
 
 
 ## Project Status
